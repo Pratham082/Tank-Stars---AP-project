@@ -1,6 +1,6 @@
-# ⭐ Tank Stars
+# Tank Stars
 
-### Welcome to our game, Tank Stars! 🎯
+### Welcome to our game, Tank Stars! 
 made by: Utsav Garg, and Pratham Singhal; IIITD, as Advanced Programming endsem project
 
 #Preface
@@ -9,7 +9,7 @@ Here is a sneak peek at a clone of the popular mobile game "Tank Stars," which w
 
 - Design Patterns - Exception Handling - Polymorphism - Abstraction - JUnit Testing - Inheritance & Interfaces - Encapsulation -
 
-# 🎮 How to Play the Game
+# How to Play the Game
 
 ## Main Screen with Menu
 
