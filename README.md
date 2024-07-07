@@ -12,8 +12,9 @@ Here is a sneak peek at a clone of the popular mobile game "Tank Stars," which w
 
 ## Main Screen with Menu
 
-![First_Page.png](Source: TankStars-GameClone github.com/UtsvGrg/blob/main/Initial%20Page.png)
+![Initial_Page.png](https://github.com/Pratham082/Tank-Stars---AP-project/blob/main/Initial%20Page.png)
 <image>
+
 
 ## Tank Selection Screen
 
