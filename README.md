@@ -56,4 +56,4 @@ Button2.addListener(new ClickListener() { public void clicked(InputEvent event, 
 
 The game's workflow is displayed in the use case diagram that follows.
 
-![Use Case Diagram Tank Stars.png](Pratham082/Tank-Stars---AP-project/blob/main/UML_Photo.png) on github
+![Use Case Diagram - Tank Stars.png](https://github.com/Pratham082/Tank-Stars---AP-project/blob/main/UML_Photo.png)
