@@ -1,6 +1,7 @@
 # ⭐ Tank Stars
 
 ### Welcome to our game, Tank Stars! 🎯
+made by: Utsav Garg, and Pratham Singhal; IIITD, as Advanced Programming endsem project
 
 #Preface
 
