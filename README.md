@@ -20,8 +20,8 @@ Here is a sneak peek at a clone of the popular mobile game "Tank Stars," which w
 
 There are three tanks in the game, and they each have one unique assault.
 
-![Page of the User.png](User Page.png can be found at https://github.com/UtsvGrg/TankStars-GameClone/blob/main).
-
+![User_Page.png](https://github.com/Pratham082/Tank-Stars---AP-project/blob/main/User_Page.png)
+<image>
 ## Main Screen of the Game
 
 ### Action Shooting
