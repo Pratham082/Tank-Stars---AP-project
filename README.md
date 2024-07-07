@@ -1,87 +1,58 @@
 # ⭐ Tank Stars
 
-### Welcome to our Tank Stars Game! 🎯
+### Welcome to our game, Tank Stars! 🎯
 
-# Introduction
+#Preface
 
-The following showcases glimpse of a clone of the mobile game ‘Tank Stars’, recreated using LibGdx and Scene2D Engine, employing important OOPs such as:
+Here is a sneak peek at a clone of the popular mobile game "Tank Stars," which was made with the help of LibGdx and Scene2D Engine. It uses significant OOPs like:
 
-- Inheritance & Interfaces
-- Encapsulation
-- Polymorphism
-- Abstraction
-- JUnit Testing
-- Serialisation
-- Design Patterns
-- Exception Handling
+- Design Patterns - Exception Handling - Polymorphism - Abstraction - JUnit Testing - Inheritance & Interfaces - Encapsulation -
 
-# 🎮 Game Play
+# 🎮 How to Play the Game
 
-## Main Menu Screen
+## Main Screen with Menu
 
-![Initial_Page.png](https://github.com/UtsvGrg/TankStars-GameClone/blob/main/Initial%20Page.png)
+![First_Page.png](Source: TankStars-GameClone github.com/UtsvGrg/blob/main/Initial%20Page.png)
 <image>
 
 ## Tank Selection Screen
 
-The Game comprises of 3 tanks, each having one special attack.
+There are three tanks in the game, and they each have one unique assault.
 
-![User_Page.png](https://github.com/UtsvGrg/TankStars-GameClone/blob/main/User_Page.png)
+![Page of the User.png](User Page.png can be found at https://github.com/UtsvGrg/TankStars-GameClone/blob/main).
 
-## Main Game Screen
+## Main Screen of the Game
 
-### Shooting
+### Action Shooting
 
-- Each Tank are separate textures that have been attached together using their relative positions, whereas the background and ground have been rendered using sprite.
-- Each stage enables ScreenViewport and thereby allows resizing the entire game.
-- Health of the tank hit is reduced depending upon the distance of the impact of the weapon.
+- The background and ground have been created using sprites, however each Tank is a separate texture that has been joined together using their relative locations.
+Every stage activates ScreenViewport, which permits the game to be resized in its entirety.
+- Depending on how far the weapon impacts, the tank's health is diminished.
 
-# Load Game Screen
+#Open the Game Screen
 
-- Games can be saved and loaded from the Load option present in the Main Menu
-- Games are stored using the concept of Serialisation using `ObjectOutputStream`.
-- All game details of an ongoing game can be stored on multiple slots, from out1.txt to out3.txt.
-
-```java
-        Button1.addListener(new ClickListener() {
-            public void clicked(InputEvent event, float x, float y) {
-                ObjectOutputStream out = null;
-                try {
-                    out = new ObjectOutputStream(new FileOutputStream("out1.txt"));
-                    out.writeObject(game);
-                    out.close();
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
-                game.setScreen(new MenuScreen(game));
-            }
-        });
-```
-
-- The class Play is serialised and the next slot index is stored using `FileOutputStream`.
-- Finally, games are Loading using `ObjectInputStream`
+- The Main Menu's Load option allows you to save and load games.
+- The idea of serialization is used to store games via `ObjectOutputStream`.
+- An ongoing game's whole set of game information can be kept on several slots, ranging from out1.txt to out3.txt.
 
 ```java
-        Button2.addListener(new ClickListener() {
-            public void clicked(InputEvent event, float x, float y) {
-                ObjectInputStream in = null;
-                try {
-                    in = new ObjectInputStream(new FileInputStream("out2.txt"));
-                    game1 = (TankWars) in.readObject();
-                    in.close();
-                } catch (IOException | ClassNotFoundException e) {
-                    throw new RuntimeException(e);
-                }
+ Button1.addListener(new ClickListener() { public void clicked(InputEvent event, float x, float y) { ObjectOutputStream out = null; { out = new ObjectOutputStream(new FileOutputStream("out1.txt")); out.writeObject(game); out.close(); IOException e) { IOException e) { IOException e) { IOException e) { IOException e) { IOException e) { IOException e) { IOException e) { IOException e) { game.setScreen(new MenuScreen(game));
+```
+- The class Play is serialized, and `FileOutputStream` is used to record the next slot index.
+- At last, games are loading through the use of `ObjectInputStream}
+
+```java
+Button2.addListener(new ClickListener() { public void clicked(InputEvent event, float x, float y) { ObjectInputStream in = null; catch (IOException | ClassNotFoundException e) { in = new ObjectInputStream(new FileInputStream("out2.txt")); game1 = (TankWars) in.readObject(); in.close(); catch (IOException | ClassNotFoundException e) { throw new RuntimeException(e);
 ```
 
-![Saved_Game.png](https://github.com/UtsvGrg/TankStars-GameClone/blob/main/Saved_Game(Serialization).png)
+![Saved_Game.png](Source: TankStars-GameClone github.com/UtsvGrg/blob/main/Saved_Game(Serialization).png)
 
-## Exception Handling
+## Managing Exceptions
 
-- We have handled many exceptions, to ensure that the game runs smoothly from IOException to ClassNotFoundException.
+- From IOException to ClassNotFoundException, we have managed a lot of exceptions to make sure the game functions properly.
 
-## Use case Diagram
+## Use Case Illustration
 
-The following use case diagram shows the work flow of the game.
+The game's workflow is displayed in the use case diagram that follows.
 
-![Use Case Diagram - Tank Stars.png](https://github.com/UtsvGrg/TankStars-GameClone/blob/main/UML_Photo.png)
+![Tank Stars Use Case Diagram.png](UtsvGrg/TankStars-GameClone/blob/main/UML_Photo.png) on github
